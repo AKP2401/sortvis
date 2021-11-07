@@ -1,18 +1,20 @@
 # SortVis
 A simple Sorting Visualizer using JS, HTML and CSS
 
-### Requirements:
+## Requirements:
 [NodeJS](https://nodejs.org/en/)(Version: 14.0+)<br>
 [npm](https://www.npmjs.com/)<br>
 Any modern browser(Google Chrome, Microsoft Edge, Firefox, Safari)<br>
 
-To run this project:
+## Run and Build:
+
+### To run this project:
 ```
 npm install
 npm run dev
 ```
 
-To build this project:
+### To build this project:
 ```
 npm install
 npm run build
