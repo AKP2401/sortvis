@@ -5,9 +5,9 @@ function enable(){
     for(var i=0; i<arr.length; ++i)
     {
         arr[i].disabled = false;
-        ar
+        arr[i].style.backgroundColor = "#7289DA"
         document.getElementById("myRange").disabled = false;
-    document.getElementById("myRange").style.backgroundColor = "#2294d6";r[i].style.backgroundColor = "#2294d6"
+    document.getElementById("myRange").style.backgroundColor = "#2294d6";
     }
   }
   
