@@ -1,0 +1,22 @@
+{
+  "name": "sortvis",
+  "version": "1.0.0",
+  "description": "Sorting Visualizer",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AKP2401/sortvis.git"
+  },
+  "author": "Aadharsh K Praveen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AKP2401/sortvis/issues"
+  },
+  "homepage": "https://github.com/AKP2401/sortvis#readme",
+  "dependencies": {
+    "parcel": "^2.0.0"
+  }
+}
