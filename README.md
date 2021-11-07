@@ -2,9 +2,9 @@
 A simple Sorting Visualizer using JS, HTML and CSS
 
 ## Requirements:
-[NodeJS](https://nodejs.org/en/)
-[npm](https://www.npmjs.com/)
-Any modern browser
+[NodeJS](https://nodejs.org/en/)<br>
+[npm](https://www.npmjs.com/)<br>
+Any modern browser<br>
 
 To run this project:
 ```
