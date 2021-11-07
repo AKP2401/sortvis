@@ -35,10 +35,11 @@ async function GnomeSort() {
       var value1 = parseInt(bars[pos].childNodes[0].innerHTML);
       var value2 = parseInt(bars[pos - 1].childNodes[0].innerHTML);
 
-      bars[pos].style.backgroundColor = "orange";
-      bars[pos - 1].style.backgroundColor = "orange";
       
       if (value1 >= value2) {
+        bars[pos].style.backgroundColor = "orange";
+        bars[pos - 1].style.backgroundColor = "orange";
+        await timeout(delay);
         pos++;
       } else {
         
@@ -60,10 +61,6 @@ async function GnomeSort() {
         bars[pos - 1].childNodes[0].innerText = temp2;
         pos--;
       }
-    
-      
-      await timeout(delay);
-    
       
       for (var x = 0; x < bars.length; x++) {
         bars[x].style.backgroundColor = "rgb(0, 183, 255)";
