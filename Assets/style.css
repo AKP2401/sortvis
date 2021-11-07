@@ -1,0 +1,149 @@
+.mySlides{
+    display: none;
+}
+
+body{
+    background-color: #23272A;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.head{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    background-color: #6f459e;
+    color: white;
+    border-radius: 19px;
+    font-weight: bolder;
+    width: 600px;
+}
+
+.data-container{
+    border-radius: 10px;
+    background-color: #7289DA;
+    padding-left: 10px;
+    width: 600px;
+    height: 384px;
+    position: relative;
+}
+
+.bar {
+    align-self: center;
+    text-align: center;
+    width: 28px;
+    color: whitesmoke;
+    position: absolute;
+    left: 1;
+    bottom: 0;
+    background-color: rgb(0, 183, 255);
+    transition: 0.2s all ease;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+
+.bar__id {
+    position: absolute;
+    top: -124px;
+    width: 100%;
+    text-align: center;
+}
+.btn1 {
+    text-align: center;
+    position: relative;
+    margin-top: 10px;
+    padding: 12px;
+    font-weight: bolder;
+    background-color: #6f459e;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    border: white;
+}
+.btn2 {
+    position: relative;
+    text-align: center;
+    margin-top: 10px;
+    padding: 12px;
+    font-weight: bolder;
+    background-color: #7289DA;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    border: white;
+}
+
+.speedSelector{
+    text-align: center;
+    font-weight: bolder;
+    background-color: #404EED;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    border: white;
+    margin: auto;
+    margin-top: 2vw;
+    width: 600px;
+}
+
+.slider{
+    width: 550px;
+}
+
+.textarea{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    width: 600px;
+}
+
+.txt{
+    margin-top: 20px;
+}
+
+#speed{
+    padding: 10px;
+    padding-top: 5px;
+}
+
+.buttons{
+    text-align: center;
+}
+
+.center{
+    text-align: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.submit{
+    position: relative;
+    text-align: center;
+    padding: 12px;
+    font-weight: bolder;
+    background-color: #2294d6;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    border: white;
+}
+
+.customIN{
+    text-align: center;
+    padding: 12px;
+    margin-right: 10px;
+    font-weight: bolder;
+    background-color: #2294d6;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    border: white;
+    width: 500px;
+}
