@@ -47,18 +47,15 @@ async function GnomeSort() {
         bars[pos].style.backgroundColor = "red";
         bars[pos - 1].style.backgroundColor = "red";
     
-        
         var temp1 = bars[pos].style.height;
         var temp2 = bars[pos].childNodes[0].innerText;
-    
         await timeout(delay);
-    
-        
         bars[pos].style.height = bars[pos - 1].style.height;
         bars[pos].childNodes[0].innerText = 
               bars[pos - 1].childNodes[0].innerText;
         bars[pos - 1].style.height = temp1;
         bars[pos - 1].childNodes[0].innerText = temp2;
+
         pos--;
       }
       
