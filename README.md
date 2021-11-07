@@ -20,4 +20,4 @@ npm install
 npm run build
 ```
 
-Note: To run this, simply open the `index.html` to run without NodeJS
+Note: To run this, simply open the `index.html` in a browser to run without NodeJS
