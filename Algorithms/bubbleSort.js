@@ -11,6 +11,14 @@ function enable(){
     document.getElementById("myRange").style.backgroundColor = "#2294d6";
 }
 
+async function timeout(delay){
+    return new Promise((resolve) =>
+            setTimeout(() => {
+            resolve();
+            }, delay)
+        );
+}
+
 function swap(el1, el2, delay) {
     return new Promise((resolve) => {
           var temp = el1.style.transform;
@@ -24,14 +32,6 @@ function swap(el1, el2, delay) {
             }, delay);
         });
     });
-}
-
-async function timeout(delay){
-    return new Promise((resolve) =>
-            setTimeout(() => {
-            resolve();
-            }, delay)
-        );
 }
 
 async function BubbleSort() {
