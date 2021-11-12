@@ -1,9 +1,12 @@
 {
   "name": "sortvis",
   "version": "1.0.0",
-  "description": "Sorting Visualizer",
+  "description": "Sorting Visualizer using Electron",
+  "productName": "SortVis",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "build": "electron-packager . SortVis --platform=win32 --arch=x64 --out=dist/release-builds",
+    "setup": "electron-installer-windows --config config.json"
   },
   "repository": {
     "type": "git",
@@ -15,7 +18,9 @@
     "url": "https://github.com/AKP2401/sortvis/issues"
   },
   "homepage": "https://github.com/AKP2401/sortvis#readme",
-  "dependencies": {
-    "electron": "^15.3.1"
+  "devDependencies": {
+    "electron": "^15.3.1",
+    "electron-installer-windows": "^3.0.0",
+    "electron-packager": "^15.4.0"
   }
 }
