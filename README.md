@@ -1,5 +1,5 @@
 # SortVis
-A simple Sorting Visualizer using JS, HTML and CSS
+A simple Sorting Visualizer using JS, HTML and CSS.
 
 ## Requirements:
 [NodeJS](https://nodejs.org/en/)<br>
