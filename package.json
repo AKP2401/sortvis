@@ -5,7 +5,7 @@
   "productName": "SortVis",
   "scripts": {
     "start": "electron .",
-    "build": "electron-packager . SortVis --platform=win32 --arch=x64 --out=dist/release-builds",
+    "build": "electron-packager . SortVis --platform=win32 --arch=x64 --out=dist/release-builds --icon=Assets/Logo.ico --overwrite",
     "setup": "electron-installer-windows --config config.json"
   },
   "repository": {

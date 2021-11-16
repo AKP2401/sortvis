@@ -3,12 +3,12 @@ const { app, BrowserWindow } = require('electron');
 function createWindow() {
     const win = new BrowserWindow(
         {
-            'icon': './Assets/Logo.png',
+            'icon': './Assets/Logo.ico',
             'height': 925,
             'width': 700
         }
     );
-    
+    win.removeMenu();
     win.loadFile('./index.html');
 }
 
